@@ -2,9 +2,9 @@ import os
 
 import cv2
 
-
 # read video
-video_path = os.path.join('.', 'data', 'monkey.mp4')
+video_paths= r'C:\Users\...'
+video_path = os.path.join(video_paths, 'sea.mp4')
 
 video = cv2.VideoCapture(video_path)
 
