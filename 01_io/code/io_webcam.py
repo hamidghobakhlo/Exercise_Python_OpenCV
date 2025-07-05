@@ -1,7 +1,9 @@
 import cv2
 
+print("Press the \"q\" key to end the program.")
+
 # read webcam
-webcam = cv2.VideoCapture(2)
+webcam = cv2.VideoCapture(0)
 
 # visualize webcam
 
