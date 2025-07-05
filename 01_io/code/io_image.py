@@ -9,8 +9,8 @@ image_path = os.path.join(image_paths, 'bird.jpg')
 img = cv2.imread(image_path)
 
 # write image
-
-cv2.imwrite(os.path.join('.', 'data', 'bird_out.jpg'), img)
+image_output_path = r'C:\Users\hamid\murph_env\project\Exercise_Python_OpenCV\01_io'
+cv2.imwrite(os.path.join(image_output_path, 'bird_out.jpg'), img)
 
 # visualize image
 
