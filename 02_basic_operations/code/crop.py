@@ -3,8 +3,8 @@ import os
 
 import cv2
 
-
-img = cv2.imread(os.path.join('.', 'dogs.jpg'))
+image_paths= r'C:\Users\...
+img = cv2.imread(os.path.join(image_paths, 'bird.jpg'))
 
 print(img.shape)
 
